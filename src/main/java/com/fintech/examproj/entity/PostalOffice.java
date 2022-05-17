@@ -16,7 +16,7 @@ public class PostalOffice {
     @Id
     private Long idOffice;
     @Column(name = "office_number")
-    private String officeNumber;
+    private Long officeNumber;
     @Column(name = "description")
     private String description;
 

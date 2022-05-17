@@ -1,4 +1,9 @@
-drop table if exists clients;
+drop table if exists packages cascade;
+drop sequence if exists packages_id cascade;
+create sequence packages_id start 100000001;
+
+
+drop table if exists clients cascade;
 drop sequence if exists clients_id cascade;
 create sequence clients_id start 100000001;
 
@@ -7,6 +12,7 @@ create table clients(
     first_name varchar(50) not null,
     last_name varchar(50) not null,
     patronymic varchar(50) not null,
+    email varchar(50) not null,
     telephone varchar(20) not null primary key
 );
 
@@ -18,21 +24,19 @@ create sequence offices_id start 100000001;
 
 create table offices(
     id_office bigint NOT NULL DEFAULT nextval('offices_id'),
-    office_number varchar(50) not null primary key,
+    office_number bigint not null primary key,
     description varchar(255) not null
 );
 
 select * from offices;
 
 
-drop table if exists packages cascade;
-drop sequence if exists packages_id cascade;
-create sequence packages_id start 100000001;
+-----
 
 create table packages(
 	id_package bigint primary key not null default nextval('packages_id'),
 	telephone_sender varchar(20) references clients(telephone),
-	num_office_recipient bigint references postal_offices(num_office),
+	num_office_recipient bigint references offices(office_number),
 	telephone varchar(20),
 	first_name varchar(50),
 	last_name varchar(50),

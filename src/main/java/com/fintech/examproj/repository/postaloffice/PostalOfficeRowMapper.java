@@ -11,7 +11,7 @@ public class PostalOfficeRowMapper implements RowMapper<PostalOffice> {
     public PostalOffice mapRow(ResultSet rs, int rowNum) throws SQLException {
         PostalOffice postalOffice = new PostalOffice();
         postalOffice.setIdOffice(rs.getLong("id_office"));
-        postalOffice.setOfficeNumber(rs.getString("office_number"));
+        postalOffice.setOfficeNumber(rs.getLong("office_number"));
         postalOffice.setDescription(rs.getString("description"));
         return postalOffice;
     }

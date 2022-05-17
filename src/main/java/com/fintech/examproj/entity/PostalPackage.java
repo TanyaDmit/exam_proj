@@ -26,11 +26,11 @@ public class PostalPackage {
     @Column(name="last_name")
     private String lastNamePackage;
     @Column(name = "patronymic")
-    private String pathronymic;
+    private String patronymic;
     @Column(name = "status")
     private String status;
     @Column(name = "date_of_create")
     private String dateOfCreate;
     @Column(name = "date_change_status")
-    private String dateChangeStatus
+    private String dateChangeStatus;
 }
