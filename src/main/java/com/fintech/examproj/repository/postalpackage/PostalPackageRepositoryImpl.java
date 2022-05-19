@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.sql.SQLException;
 import java.util.List;
 
 @Repository
@@ -38,5 +39,25 @@ public class PostalPackageRepositoryImpl implements PostalPackageRepository{
     public List<PostalPackage> findALL() {
         log.info("find all data in table packages ");
         return jdbcTemplate.query("SELECT * FROM packages", new PostalPackageRowMapper());
+    }
+
+    public List<PostalPackage> findALLStatus(){
+        log.info("find status and date_change_status from packages ");
+        return jdbcTemplate.query("SELECT to_char(date_change_status, 'YYYY-MM-DD HH24:MI:SS') as d1, " +
+                    "status," +
+                    "id_package FROM packages where status = 'new_package'",
+                    new PostalPackageRowMapper());
+    }
+
+    public void updateStatus(List<PostalPackage> postalPackage) {
+        log.info("update status package ");
+        for (int i = 0; i < postalPackage.size(); i++) {
+            jdbcTemplate.update("update packages " +
+                            "set (status, date_change_status) = (?, ?::timestamp)" +
+                            "where id_package = ?",
+                    postalPackage.get(i).getStatus(),
+                    postalPackage.get(i).getDateChangeStatus(),
+                    postalPackage.get(i).getIdPackage());
+        }
     }
 }

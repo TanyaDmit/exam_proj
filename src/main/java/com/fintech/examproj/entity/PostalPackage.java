@@ -33,4 +33,10 @@ public class PostalPackage {
     private String dateOfCreate;
     @Column(name = "date_change_status")
     private String dateChangeStatus;
+
+    public PostalPackage(Long idPackage, String status, String dateChangeStatus){
+        this.idPackage = idPackage;
+        this.status = status;
+        this.dateChangeStatus = dateChangeStatus;
+    }
 }

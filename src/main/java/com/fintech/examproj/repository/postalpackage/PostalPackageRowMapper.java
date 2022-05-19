@@ -1,6 +1,7 @@
 package com.fintech.examproj.repository.postalpackage;
 
 import com.fintech.examproj.entity.PostalPackage;
+import org.apache.log4j.Logger;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

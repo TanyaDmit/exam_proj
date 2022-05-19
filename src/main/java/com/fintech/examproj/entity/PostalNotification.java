@@ -12,14 +12,20 @@ import javax.persistence.Column;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table("messages")
-public class PostalMessage {
+public class PostalNotification {
     @Id
-    private Long idMessage;
+    @Column(name = "id_message")
+    private Long idNotification;
     @Column(name = "num_package")
     private Long numberPackage;
     @Column(name = "text_message")
     private String textMessage;
     @Column(name = "status")
     private String status;
+
+    public PostalNotification(Long numberPackage, String textMessage){
+        this.numberPackage = numberPackage;
+        this.textMessage= textMessage;
+    }
 
 }

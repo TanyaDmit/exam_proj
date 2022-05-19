@@ -2,6 +2,8 @@ package com.fintech.examproj.controller;
 
 import com.fintech.examproj.entity.PostalOffice;
 import com.fintech.examproj.entity.PostalPackage;
+import com.fintech.examproj.schedule.PostalPackageSchedule;
+import com.fintech.examproj.service.NotificationService;
 import com.fintech.examproj.service.PostalPackageService;
 import lombok.extern.log4j.Log4j2;
 import org.apache.log4j.Logger;
@@ -17,6 +19,8 @@ import java.util.List;
 public class PostalPackagesController {
 
     private final PostalPackageService postalPackageService;
+    private PostalPackageSchedule postalPackageSchedule;
+    private NotificationService notificationService;
     private static final Logger log = Logger.getLogger(PostalPackagesController.class);
     @Autowired
     public PostalPackagesController(PostalPackageService postalPackageService) {
@@ -40,5 +44,22 @@ public class PostalPackagesController {
     @GetMapping("/writeinfile")
     public void writePostalPackage(){
         postalPackageService.writePostalPackage();
+    }
+
+    @GetMapping("/sendpackages")
+    public void sendPackage(){
+        int counter = 0;
+        boolean flagSend = false;
+        postalPackageService.sendPackage();
+        flagSend = postalPackageService.sendPackage();
+        if(flagSend){
+            counter++;
+            flagSend = false;
+        } else {
+            counter = 0;
+        }
+        if(counter == 5){
+            log.info("STOP. ALLE PACKAGES SENT \n");
+        }
     }
 }

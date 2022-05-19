@@ -1,7 +1,7 @@
 package com.fintech.examproj.controller;
 
 import com.fintech.examproj.entity.PostalClient;
-import com.fintech.examproj.entity.PostalMessage;
+import com.fintech.examproj.entity.PostalNotification;
 import com.fintech.examproj.entity.PostalOffice;
 import com.fintech.examproj.entity.PostalPackage;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -52,11 +51,18 @@ public class FileController {
         }
     }
 
-    public void writePostalMessage(List<PostalMessage> postalMessages){
+    public void writeNotification(List<PostalNotification> postalMessages){
         for(int i = 0; i < postalMessages.size(); i++){
-            fileWriterMessage.print(postalMessages.get(i).getNumberPackage()+ " "+
+            fileWriterMessage.print("message : " + postalMessages.get(i).getNumberPackage()+ " "+
                     postalMessages.get(i).getTextMessage()+ " " +
                     postalMessages.get(i).getStatus()+"\n");
+        }
+    }
+
+    public void sendNotification(List<PostalNotification> postalMessages){
+        for(int i = 0; i < postalMessages.size(); i++){
+            fileWriterMessage.print("send package number : " + postalMessages.get(i).getNumberPackage()+
+                    " ; with text : "+ postalMessages.get(i).getTextMessage()+ "\n");
         }
     }
 

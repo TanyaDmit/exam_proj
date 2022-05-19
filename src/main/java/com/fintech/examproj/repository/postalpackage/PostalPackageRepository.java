@@ -9,4 +9,5 @@ public interface PostalPackageRepository {
     int save(PostalPackage postalPackage);
     int delete(long id);
     List<PostalPackage> findALL();
+    public List<PostalPackage> findALLStatus();
 }
