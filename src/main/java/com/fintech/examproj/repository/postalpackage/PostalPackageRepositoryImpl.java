@@ -36,7 +36,7 @@ public class PostalPackageRepositoryImpl implements PostalPackageRepository{
 
     @Override
     public List<PostalPackage> findALL() {
-        log.info("find all data in table packages: ");
+        log.info("find all data in table packages ");
         return jdbcTemplate.query("SELECT * FROM packages", new PostalPackageRowMapper());
     }
 }

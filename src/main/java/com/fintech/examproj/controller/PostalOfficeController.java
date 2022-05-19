@@ -36,4 +36,9 @@ public class PostalOfficeController {
             log.info("office: " + postalOffices.get(i));
         }
     }
+
+    @GetMapping("/writeinfile")
+    public void writePostalPackage(){
+        postalOfficeService.writePostalOffice();
+    }
 }

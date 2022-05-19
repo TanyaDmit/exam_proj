@@ -35,4 +35,9 @@ public class PostalClientController {
             log.info("client: " + postalClients.get(i));
         }
     }
+
+    @GetMapping("/writeinfile")
+    public void writePostalClient(){
+        postalClientService.writePostalClient();
+    }
 }

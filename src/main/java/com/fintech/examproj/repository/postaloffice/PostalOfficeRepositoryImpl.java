@@ -35,7 +35,7 @@ public class PostalOfficeRepositoryImpl implements PostalOfficeRepository{
 
     @Override
     public List<PostalOffice> findALL() {
-        log.info("find all data in table offices: ");
+        log.info("find all data in table offices ");
         return jdbcTemplate.query("SELECT * FROM offices", new PostalOfficeRowMapper());
     }
 }

@@ -36,4 +36,9 @@ public class PostalPackagesController {
             log.info("package: " + postalPackages.get(i));
         }
     }
+
+    @GetMapping("/writeinfile")
+    public void writePostalPackage(){
+        postalPackageService.writePostalPackage();
+    }
 }

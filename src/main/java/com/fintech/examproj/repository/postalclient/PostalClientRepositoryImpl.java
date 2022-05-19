@@ -33,7 +33,7 @@ public class PostalClientRepositoryImpl implements PostalClientRepository{
 
     @Override
     public List<PostalClient> findALL() {
-        log.info("find all data in table clients: ");
+        log.info("find all data in table clients ");
         return jdbcTemplate.query("SELECT * FROM clients", new PostalClientRowMapper());
     }
 }
