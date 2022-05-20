@@ -4,6 +4,8 @@ import com.fintech.examproj.entity.PostalClient;
 import com.fintech.examproj.entity.PostalNotification;
 import com.fintech.examproj.entity.PostalOffice;
 import com.fintech.examproj.entity.PostalPackage;
+import com.fintech.examproj.service.PostalPackageService;
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.FileWriter;
@@ -14,6 +16,7 @@ import java.util.List;
 @RestController
 public class FileController {
 
+    private static final Logger log = Logger.getLogger(FileController.class);
     private PrintWriter fileWriterData = new PrintWriter(new FileWriter("output_data.txt", true));
     private PrintWriter fileWriterMessage = new PrintWriter(new FileWriter("messages.txt", true));
 
@@ -59,7 +62,7 @@ public class FileController {
         }
     }
 
-    public void sendNotification(List<PostalNotification> postalMessages){
+    public void sendNotificationInFile(List<PostalNotification> postalMessages) {
         for(int i = 0; i < postalMessages.size(); i++){
             fileWriterMessage.print("send package number : " + postalMessages.get(i).getNumberPackage()+
                     " ; with text : "+ postalMessages.get(i).getTextMessage()+ "\n");
@@ -70,8 +73,12 @@ public class FileController {
         if(fileWriterData != null){
             fileWriterData.close();
         }
+    }
+
+    public void closeM() throws Exception{
         if(fileWriterMessage != null){
             fileWriterMessage.close();
         }
     }
+
 }

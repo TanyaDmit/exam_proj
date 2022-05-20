@@ -30,4 +30,9 @@ public class NotificationController {
             log.info("package: " + postalNotifications.get(i));
         }
     }
+
+    @GetMapping("/sendmessage")
+    public void sendNotification(){
+        notificationService.sendNotification();
+    }
 }

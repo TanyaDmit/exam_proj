@@ -60,7 +60,7 @@ create table packages(
 	patronymic varchar(50),
 	status varchar(20),
 	date_of_create timestamp not null default now(),--,'yyyy-mm-dd hh24:mi:ss'),
-	date_change_status timestamp --'yyyy-mm-dd hh24:mi:ss'
+	date_change_status timestamp not null default now() --'yyyy-mm-dd hh24:mi:ss'
 );
 
 insert into packages (num_office_recipient, telephone, first_name, last_name, patronymic, status, telephone_sender)
@@ -71,7 +71,7 @@ select
 	'SomeFamilie'||generate_series(1, 50, 1) as last_name,
 	'SomePatronymic'||generate_series(1, 50, 1) as patronymic,
 	'new_package' as status,
-	telephone from clients as telephone_cender limit 100;
+	telephone from clients as telephone_cender limit 300;
 
 select * from packages;
 
@@ -82,11 +82,12 @@ drop sequence if exists messages_id cascade;
 create sequence messages_id start 100000001;
 
 create table messages(
-    id_message bigint NOT NULL DEFAULT nextval('messages_id'),
+    id_notification bigint NOT NULL DEFAULT nextval('messages_id'),
     num_package bigint references packages(id_package),
 	text_message text,
-	status varchar(20)
+	status varchar(20),
+	date_change_status timestamp  --'yyyy-mm-dd hh24:mi:ss'
 );
 
-select * from messages;
+select * from messages;-- where status = 'new_message';
 

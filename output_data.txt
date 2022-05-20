@@ -1,0 +1,301 @@
+client : +380503567620 SomeName1 SomeFamilie1 SomePatronymic1 1client.email@gmail.com
+client : +380503583804 SomeName2 SomeFamilie2 SomePatronymic2 2client.email@gmail.com
+client : +380503047859 SomeName3 SomeFamilie3 SomePatronymic3 3client.email@gmail.com
+client : +380507313633 SomeName4 SomeFamilie4 SomePatronymic4 4client.email@gmail.com
+client : +380501776338 SomeName5 SomeFamilie5 SomePatronymic5 5client.email@gmail.com
+client : +380509874247 SomeName6 SomeFamilie6 SomePatronymic6 6client.email@gmail.com
+client : +38050729767 SomeName7 SomeFamilie7 SomePatronymic7 7client.email@gmail.com
+client : +380507874019 SomeName8 SomeFamilie8 SomePatronymic8 8client.email@gmail.com
+client : +380508397331 SomeName9 SomeFamilie9 SomePatronymic9 9client.email@gmail.com
+client : +380501256485 SomeName10 SomeFamilie10 SomePatronymic10 10client.email@gmail.com
+client : +380502575390 SomeName11 SomeFamilie11 SomePatronymic11 11client.email@gmail.com
+client : +380506135613 SomeName12 SomeFamilie12 SomePatronymic12 12client.email@gmail.com
+client : +380506778708 SomeName13 SomeFamilie13 SomePatronymic13 13client.email@gmail.com
+client : +380504231985 SomeName14 SomeFamilie14 SomePatronymic14 14client.email@gmail.com
+client : +380504787045 SomeName15 SomeFamilie15 SomePatronymic15 15client.email@gmail.com
+client : +380507060390 SomeName16 SomeFamilie16 SomePatronymic16 16client.email@gmail.com
+client : +380504034701 SomeName17 SomeFamilie17 SomePatronymic17 17client.email@gmail.com
+client : +380502372741 SomeName18 SomeFamilie18 SomePatronymic18 18client.email@gmail.com
+client : +380507670676 SomeName19 SomeFamilie19 SomePatronymic19 19client.email@gmail.com
+client : +380509311123 SomeName20 SomeFamilie20 SomePatronymic20 20client.email@gmail.com
+client : +380508401038 SomeName21 SomeFamilie21 SomePatronymic21 21client.email@gmail.com
+client : +380502572862 SomeName22 SomeFamilie22 SomePatronymic22 22client.email@gmail.com
+client : +380504956723 SomeName23 SomeFamilie23 SomePatronymic23 23client.email@gmail.com
+client : +380505567514 SomeName24 SomeFamilie24 SomePatronymic24 24client.email@gmail.com
+client : +38050190896 SomeName25 SomeFamilie25 SomePatronymic25 25client.email@gmail.com
+client : +380509096179 SomeName26 SomeFamilie26 SomePatronymic26 26client.email@gmail.com
+client : +380509587372 SomeName27 SomeFamilie27 SomePatronymic27 27client.email@gmail.com
+client : +380501404239 SomeName28 SomeFamilie28 SomePatronymic28 28client.email@gmail.com
+client : +380504092396 SomeName29 SomeFamilie29 SomePatronymic29 29client.email@gmail.com
+client : +380504775935 SomeName30 SomeFamilie30 SomePatronymic30 30client.email@gmail.com
+client : +38050673386 SomeName31 SomeFamilie31 SomePatronymic31 31client.email@gmail.com
+client : +380501662621 SomeName32 SomeFamilie32 SomePatronymic32 32client.email@gmail.com
+client : +380501835294 SomeName33 SomeFamilie33 SomePatronymic33 33client.email@gmail.com
+client : +380507464582 SomeName34 SomeFamilie34 SomePatronymic34 34client.email@gmail.com
+client : +380505270590 SomeName35 SomeFamilie35 SomePatronymic35 35client.email@gmail.com
+client : +38050547093 SomeName36 SomeFamilie36 SomePatronymic36 36client.email@gmail.com
+client : +380507680425 SomeName37 SomeFamilie37 SomePatronymic37 37client.email@gmail.com
+client : +380502692920 SomeName38 SomeFamilie38 SomePatronymic38 38client.email@gmail.com
+client : +380508760100 SomeName39 SomeFamilie39 SomePatronymic39 39client.email@gmail.com
+client : +380506812020 SomeName40 SomeFamilie40 SomePatronymic40 40client.email@gmail.com
+client : +380506322989 SomeName41 SomeFamilie41 SomePatronymic41 41client.email@gmail.com
+client : +380506855252 SomeName42 SomeFamilie42 SomePatronymic42 42client.email@gmail.com
+client : +380509025422 SomeName43 SomeFamilie43 SomePatronymic43 43client.email@gmail.com
+client : +380502954122 SomeName44 SomeFamilie44 SomePatronymic44 44client.email@gmail.com
+client : +380507878277 SomeName45 SomeFamilie45 SomePatronymic45 45client.email@gmail.com
+client : +380504999063 SomeName46 SomeFamilie46 SomePatronymic46 46client.email@gmail.com
+client : +380501297731 SomeName47 SomeFamilie47 SomePatronymic47 47client.email@gmail.com
+client : +380502651846 SomeName48 SomeFamilie48 SomePatronymic48 48client.email@gmail.com
+client : +380507020861 SomeName49 SomeFamilie49 SomePatronymic49 49client.email@gmail.com
+client : +380501403452 SomeName50 SomeFamilie50 SomePatronymic50 50client.email@gmail.com
+package : +380503567620 2 SomeName2 SomeFamilie2 SomePatronymic2 +380502438196 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 3 SomeName3 SomeFamilie3 SomePatronymic3 +38050116454 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 4 SomeName4 SomeFamilie4 SomePatronymic4 +380502050866 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 5 SomeName5 SomeFamilie5 SomePatronymic5 +380504351906 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 6 SomeName6 SomeFamilie6 SomePatronymic6 +380506181667 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 7 SomeName7 SomeFamilie7 SomePatronymic7 +380502517017 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 8 SomeName8 SomeFamilie8 SomePatronymic8 +380505333473 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 10 SomeName10 SomeFamilie10 SomePatronymic10 +380507085915 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 11 SomeName11 SomeFamilie11 SomePatronymic11 +380507937646 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 12 SomeName12 SomeFamilie12 SomePatronymic12 +380509922089 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 13 SomeName13 SomeFamilie13 SomePatronymic13 +380502089151 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 14 SomeName14 SomeFamilie14 SomePatronymic14 +380505089210 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 15 SomeName15 SomeFamilie15 SomePatronymic15 +380508008107 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 16 SomeName16 SomeFamilie16 SomePatronymic16 +380507726320 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 17 SomeName17 SomeFamilie17 SomePatronymic17 +380501880425 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 18 SomeName18 SomeFamilie18 SomePatronymic18 +380504516932 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 19 SomeName19 SomeFamilie19 SomePatronymic19 +380505358679 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 20 SomeName20 SomeFamilie20 SomePatronymic20 +38050885184 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 21 SomeName21 SomeFamilie21 SomePatronymic21 +380508245409 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 22 SomeName22 SomeFamilie22 SomePatronymic22 +38050163294 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 23 SomeName23 SomeFamilie23 SomePatronymic23 +38050781368 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 24 SomeName24 SomeFamilie24 SomePatronymic24 +380507374960 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 25 SomeName25 SomeFamilie25 SomePatronymic25 +380508572768 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 26 SomeName26 SomeFamilie26 SomePatronymic26 +38050482260 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 27 SomeName27 SomeFamilie27 SomePatronymic27 +380509582207 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 28 SomeName28 SomeFamilie28 SomePatronymic28 +380502263535 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 29 SomeName29 SomeFamilie29 SomePatronymic29 +380509654279 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 30 SomeName30 SomeFamilie30 SomePatronymic30 +380505863407 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 31 SomeName31 SomeFamilie31 SomePatronymic31 +380504842925 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 32 SomeName32 SomeFamilie32 SomePatronymic32 +380505067509 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 33 SomeName33 SomeFamilie33 SomePatronymic33 +380506320627 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 34 SomeName34 SomeFamilie34 SomePatronymic34 +380502949073 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 35 SomeName35 SomeFamilie35 SomePatronymic35 +380504231784 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 36 SomeName36 SomeFamilie36 SomePatronymic36 +380506800530 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 37 SomeName37 SomeFamilie37 SomePatronymic37 +380504598949 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 39 SomeName39 SomeFamilie39 SomePatronymic39 +38050691234 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 40 SomeName40 SomeFamilie40 SomePatronymic40 +380508890723 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 41 SomeName41 SomeFamilie41 SomePatronymic41 +380507468995 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 42 SomeName42 SomeFamilie42 SomePatronymic42 +380505274601 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 43 SomeName43 SomeFamilie43 SomePatronymic43 +380506887488 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 44 SomeName44 SomeFamilie44 SomePatronymic44 +380505474747 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 45 SomeName45 SomeFamilie45 SomePatronymic45 +380502120940 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 46 SomeName46 SomeFamilie46 SomePatronymic46 +380502021183 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 47 SomeName47 SomeFamilie47 SomePatronymic47 +380504994239 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 48 SomeName48 SomeFamilie48 SomePatronymic48 +380507960588 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 49 SomeName49 SomeFamilie49 SomePatronymic49 +380503605766 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503567620 50 SomeName50 SomeFamilie50 SomePatronymic50 +380507589307 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 1 SomeName1 SomeFamilie1 SomePatronymic1 +380501115269 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 2 SomeName2 SomeFamilie2 SomePatronymic2 +380508036216 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 3 SomeName3 SomeFamilie3 SomePatronymic3 +380507100416 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 4 SomeName4 SomeFamilie4 SomePatronymic4 +380508631933 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 5 SomeName5 SomeFamilie5 SomePatronymic5 +380501501127 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 7 SomeName7 SomeFamilie7 SomePatronymic7 +380502272457 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 8 SomeName8 SomeFamilie8 SomePatronymic8 +380505089595 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 9 SomeName9 SomeFamilie9 SomePatronymic9 +380502411703 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 10 SomeName10 SomeFamilie10 SomePatronymic10 +380507446909 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 11 SomeName11 SomeFamilie11 SomePatronymic11 +380509916974 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 12 SomeName12 SomeFamilie12 SomePatronymic12 +380509970036 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 13 SomeName13 SomeFamilie13 SomePatronymic13 +380508904326 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 15 SomeName15 SomeFamilie15 SomePatronymic15 +380506052179 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 16 SomeName16 SomeFamilie16 SomePatronymic16 +380505582885 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 17 SomeName17 SomeFamilie17 SomePatronymic17 +380509526881 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 18 SomeName18 SomeFamilie18 SomePatronymic18 +380501879345 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 19 SomeName19 SomeFamilie19 SomePatronymic19 +380508806428 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 20 SomeName20 SomeFamilie20 SomePatronymic20 +380508815825 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 21 SomeName21 SomeFamilie21 SomePatronymic21 +380503564637 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 22 SomeName22 SomeFamilie22 SomePatronymic22 +380509781919 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 23 SomeName23 SomeFamilie23 SomePatronymic23 +380501920912 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 24 SomeName24 SomeFamilie24 SomePatronymic24 +380506332963 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 25 SomeName25 SomeFamilie25 SomePatronymic25 +380507481634 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 26 SomeName26 SomeFamilie26 SomePatronymic26 +380501960372 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 27 SomeName27 SomeFamilie27 SomePatronymic27 +380507648297 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 28 SomeName28 SomeFamilie28 SomePatronymic28 +380507935921 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 29 SomeName29 SomeFamilie29 SomePatronymic29 +380505022167 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 30 SomeName30 SomeFamilie30 SomePatronymic30 +380503788557 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 31 SomeName31 SomeFamilie31 SomePatronymic31 +380504773514 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 32 SomeName32 SomeFamilie32 SomePatronymic32 +380502021114 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 33 SomeName33 SomeFamilie33 SomePatronymic33 +380506261345 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 34 SomeName34 SomeFamilie34 SomePatronymic34 +380501542906 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 35 SomeName35 SomeFamilie35 SomePatronymic35 +380501850287 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 36 SomeName36 SomeFamilie36 SomePatronymic36 +380506141567 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 37 SomeName37 SomeFamilie37 SomePatronymic37 +3805038015 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 38 SomeName38 SomeFamilie38 SomePatronymic38 +380502444161 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 39 SomeName39 SomeFamilie39 SomePatronymic39 +380505373800 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 40 SomeName40 SomeFamilie40 SomePatronymic40 +380501468575 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 42 SomeName42 SomeFamilie42 SomePatronymic42 +380507446605 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 43 SomeName43 SomeFamilie43 SomePatronymic43 +38050240263 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 44 SomeName44 SomeFamilie44 SomePatronymic44 +380506558776 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 45 SomeName45 SomeFamilie45 SomePatronymic45 +380506546386 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 46 SomeName46 SomeFamilie46 SomePatronymic46 +380507673591 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 47 SomeName47 SomeFamilie47 SomePatronymic47 +380509628405 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 48 SomeName48 SomeFamilie48 SomePatronymic48 +38050658492 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 49 SomeName49 SomeFamilie49 SomePatronymic49 +380501935948 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503583804 50 SomeName50 SomeFamilie50 SomePatronymic50 +380507329157 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 1 SomeName1 SomeFamilie1 SomePatronymic1 +380501432774 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 2 SomeName2 SomeFamilie2 SomePatronymic2 +380502993164 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 3 SomeName3 SomeFamilie3 SomePatronymic3 +380502344121 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 4 SomeName4 SomeFamilie4 SomePatronymic4 +380501584996 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 5 SomeName5 SomeFamilie5 SomePatronymic5 +380503047040 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 6 SomeName6 SomeFamilie6 SomePatronymic6 +380503550582 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 7 SomeName7 SomeFamilie7 SomePatronymic7 +380506405554 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 8 SomeName8 SomeFamilie8 SomePatronymic8 +380505133076 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 9 SomeName9 SomeFamilie9 SomePatronymic9 +380509006408 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 10 SomeName10 SomeFamilie10 SomePatronymic10 +380505008665 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 12 SomeName12 SomeFamilie12 SomePatronymic12 +380505621314 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 13 SomeName13 SomeFamilie13 SomePatronymic13 +380501527152 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 14 SomeName14 SomeFamilie14 SomePatronymic14 +38050199301 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 15 SomeName15 SomeFamilie15 SomePatronymic15 +380508294549 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 16 SomeName16 SomeFamilie16 SomePatronymic16 +38050398588 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 17 SomeName17 SomeFamilie17 SomePatronymic17 +380501009840 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 18 SomeName18 SomeFamilie18 SomePatronymic18 +380506138161 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 19 SomeName19 SomeFamilie19 SomePatronymic19 +380505373319 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 20 SomeName20 SomeFamilie20 SomePatronymic20 +380506262947 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 22 SomeName22 SomeFamilie22 SomePatronymic22 +380503766424 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 23 SomeName23 SomeFamilie23 SomePatronymic23 +380506798392 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 24 SomeName24 SomeFamilie24 SomePatronymic24 +380501141389 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 25 SomeName25 SomeFamilie25 SomePatronymic25 +380505808605 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 26 SomeName26 SomeFamilie26 SomePatronymic26 +380502505381 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 27 SomeName27 SomeFamilie27 SomePatronymic27 +380505094021 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 28 SomeName28 SomeFamilie28 SomePatronymic28 +380506770450 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 29 SomeName29 SomeFamilie29 SomePatronymic29 +380505886470 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 30 SomeName30 SomeFamilie30 SomePatronymic30 +380504161466 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 31 SomeName31 SomeFamilie31 SomePatronymic31 +380505121577 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 32 SomeName32 SomeFamilie32 SomePatronymic32 +380509964798 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 33 SomeName33 SomeFamilie33 SomePatronymic33 +380508091261 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 34 SomeName34 SomeFamilie34 SomePatronymic34 +380501061264 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 35 SomeName35 SomeFamilie35 SomePatronymic35 +38050897868 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 36 SomeName36 SomeFamilie36 SomePatronymic36 +380501458018 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 37 SomeName37 SomeFamilie37 SomePatronymic37 +380501235731 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 38 SomeName38 SomeFamilie38 SomePatronymic38 +380506248504 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 39 SomeName39 SomeFamilie39 SomePatronymic39 +380504980531 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 40 SomeName40 SomeFamilie40 SomePatronymic40 +380509608967 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 41 SomeName41 SomeFamilie41 SomePatronymic41 +380505972734 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 42 SomeName42 SomeFamilie42 SomePatronymic42 +380507624290 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 43 SomeName43 SomeFamilie43 SomePatronymic43 +380508914998 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 44 SomeName44 SomeFamilie44 SomePatronymic44 +380507552994 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 46 SomeName46 SomeFamilie46 SomePatronymic46 +380504825504 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 47 SomeName47 SomeFamilie47 SomePatronymic47 +380502117574 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 48 SomeName48 SomeFamilie48 SomePatronymic48 +380507235580 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 49 SomeName49 SomeFamilie49 SomePatronymic49 +380502564318 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380503047859 50 SomeName50 SomeFamilie50 SomePatronymic50 +380504963123 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 1 SomeName1 SomeFamilie1 SomePatronymic1 +38050176379 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 2 SomeName2 SomeFamilie2 SomePatronymic2 +380509823609 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 3 SomeName3 SomeFamilie3 SomePatronymic3 +38050687476 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 4 SomeName4 SomeFamilie4 SomePatronymic4 +380506912355 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 5 SomeName5 SomeFamilie5 SomePatronymic5 +380502364809 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 6 SomeName6 SomeFamilie6 SomePatronymic6 +380506404621 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 7 SomeName7 SomeFamilie7 SomePatronymic7 +380503123886 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 8 SomeName8 SomeFamilie8 SomePatronymic8 +38050271249 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 9 SomeName9 SomeFamilie9 SomePatronymic9 +380507815527 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 10 SomeName10 SomeFamilie10 SomePatronymic10 +380504846578 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 11 SomeName11 SomeFamilie11 SomePatronymic11 +380507763293 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 12 SomeName12 SomeFamilie12 SomePatronymic12 +380504276368 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 13 SomeName13 SomeFamilie13 SomePatronymic13 +380503587848 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 14 SomeName14 SomeFamilie14 SomePatronymic14 +380501920538 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 15 SomeName15 SomeFamilie15 SomePatronymic15 +380501956562 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 17 SomeName17 SomeFamilie17 SomePatronymic17 +380509224895 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 18 SomeName18 SomeFamilie18 SomePatronymic18 +380505038157 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 19 SomeName19 SomeFamilie19 SomePatronymic19 +38050540593 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 20 SomeName20 SomeFamilie20 SomePatronymic20 +380505579111 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 21 SomeName21 SomeFamilie21 SomePatronymic21 +380507442779 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 23 SomeName23 SomeFamilie23 SomePatronymic23 +380501605205 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 24 SomeName24 SomeFamilie24 SomePatronymic24 +380503709402 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 25 SomeName25 SomeFamilie25 SomePatronymic25 +38050581826 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 26 SomeName26 SomeFamilie26 SomePatronymic26 +380507386715 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 27 SomeName27 SomeFamilie27 SomePatronymic27 +380509093335 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 28 SomeName28 SomeFamilie28 SomePatronymic28 +380508045990 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 29 SomeName29 SomeFamilie29 SomePatronymic29 +380506295799 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 30 SomeName30 SomeFamilie30 SomePatronymic30 +380509625542 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 31 SomeName31 SomeFamilie31 SomePatronymic31 +38050551729 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 32 SomeName32 SomeFamilie32 SomePatronymic32 +380507296728 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 33 SomeName33 SomeFamilie33 SomePatronymic33 +380502731162 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 34 SomeName34 SomeFamilie34 SomePatronymic34 +380508201814 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 35 SomeName35 SomeFamilie35 SomePatronymic35 +380506818872 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 36 SomeName36 SomeFamilie36 SomePatronymic36 +380503140088 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 37 SomeName37 SomeFamilie37 SomePatronymic37 +380504883462 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 38 SomeName38 SomeFamilie38 SomePatronymic38 +380502625308 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 39 SomeName39 SomeFamilie39 SomePatronymic39 +380504644395 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 40 SomeName40 SomeFamilie40 SomePatronymic40 +380506520670 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 41 SomeName41 SomeFamilie41 SomePatronymic41 +380506796417 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 42 SomeName42 SomeFamilie42 SomePatronymic42 +380503134253 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 43 SomeName43 SomeFamilie43 SomePatronymic43 +380501080029 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 44 SomeName44 SomeFamilie44 SomePatronymic44 +380509364356 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 45 SomeName45 SomeFamilie45 SomePatronymic45 +380503332485 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 46 SomeName46 SomeFamilie46 SomePatronymic46 +38050954341 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 47 SomeName47 SomeFamilie47 SomePatronymic47 +380501772870 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 48 SomeName48 SomeFamilie48 SomePatronymic48 +380507167018 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380507313633 50 SomeName50 SomeFamilie50 SomePatronymic50 +380501223496 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 1 SomeName1 SomeFamilie1 SomePatronymic1 +380502240370 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 2 SomeName2 SomeFamilie2 SomePatronymic2 +380508021297 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 3 SomeName3 SomeFamilie3 SomePatronymic3 +380508011610 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 4 SomeName4 SomeFamilie4 SomePatronymic4 +380503105414 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 5 SomeName5 SomeFamilie5 SomePatronymic5 +380508931981 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 6 SomeName6 SomeFamilie6 SomePatronymic6 +380506884741 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 7 SomeName7 SomeFamilie7 SomePatronymic7 +380507891984 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 8 SomeName8 SomeFamilie8 SomePatronymic8 +380502793332 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 9 SomeName9 SomeFamilie9 SomePatronymic9 +380503910330 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 10 SomeName10 SomeFamilie10 SomePatronymic10 +380504526909 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 11 SomeName11 SomeFamilie11 SomePatronymic11 +380509353978 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 12 SomeName12 SomeFamilie12 SomePatronymic12 +380505637636 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 13 SomeName13 SomeFamilie13 SomePatronymic13 +380505746746 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 14 SomeName14 SomeFamilie14 SomePatronymic14 +380508671844 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 15 SomeName15 SomeFamilie15 SomePatronymic15 +380509526897 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 16 SomeName16 SomeFamilie16 SomePatronymic16 +380503643590 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 17 SomeName17 SomeFamilie17 SomePatronymic17 +380508559797 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 18 SomeName18 SomeFamilie18 SomePatronymic18 +380508705688 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 19 SomeName19 SomeFamilie19 SomePatronymic19 +380501267053 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 20 SomeName20 SomeFamilie20 SomePatronymic20 +380503736974 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 22 SomeName22 SomeFamilie22 SomePatronymic22 +380504058388 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 23 SomeName23 SomeFamilie23 SomePatronymic23 +380507727324 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 24 SomeName24 SomeFamilie24 SomePatronymic24 +380502175174 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 25 SomeName25 SomeFamilie25 SomePatronymic25 +380504303119 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 26 SomeName26 SomeFamilie26 SomePatronymic26 +380502386095 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 27 SomeName27 SomeFamilie27 SomePatronymic27 +380505038086 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 29 SomeName29 SomeFamilie29 SomePatronymic29 +380506463574 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 30 SomeName30 SomeFamilie30 SomePatronymic30 +380505150797 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 31 SomeName31 SomeFamilie31 SomePatronymic31 +380508814698 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 32 SomeName32 SomeFamilie32 SomePatronymic32 +380501837643 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 33 SomeName33 SomeFamilie33 SomePatronymic33 +38050625378 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 34 SomeName34 SomeFamilie34 SomePatronymic34 +380501570958 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 35 SomeName35 SomeFamilie35 SomePatronymic35 +380501746682 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 36 SomeName36 SomeFamilie36 SomePatronymic36 +38050486566 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 37 SomeName37 SomeFamilie37 SomePatronymic37 +380505492771 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 38 SomeName38 SomeFamilie38 SomePatronymic38 +380504437900 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 39 SomeName39 SomeFamilie39 SomePatronymic39 +380507411960 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 40 SomeName40 SomeFamilie40 SomePatronymic40 +380508603004 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 41 SomeName41 SomeFamilie41 SomePatronymic41 +380503094206 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 42 SomeName42 SomeFamilie42 SomePatronymic42 +380503474870 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 43 SomeName43 SomeFamilie43 SomePatronymic43 +380501111996 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 44 SomeName44 SomeFamilie44 SomePatronymic44 +380508654513 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 45 SomeName45 SomeFamilie45 SomePatronymic45 +380505446161 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 46 SomeName46 SomeFamilie46 SomePatronymic46 +3805057983 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 47 SomeName47 SomeFamilie47 SomePatronymic47 +380503512777 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 48 SomeName48 SomeFamilie48 SomePatronymic48 +380502046351 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 49 SomeName49 SomeFamilie49 SomePatronymic49 +380509689258 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380501776338 50 SomeName50 SomeFamilie50 SomePatronymic50 +380505800708 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 1 SomeName1 SomeFamilie1 SomePatronymic1 +380501430644 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 2 SomeName2 SomeFamilie2 SomePatronymic2 +380506754344 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 3 SomeName3 SomeFamilie3 SomePatronymic3 +38050211082 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 5 SomeName5 SomeFamilie5 SomePatronymic5 +380501605967 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 6 SomeName6 SomeFamilie6 SomePatronymic6 +380509053428 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 7 SomeName7 SomeFamilie7 SomePatronymic7 +380504281899 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 8 SomeName8 SomeFamilie8 SomePatronymic8 +380506769980 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 9 SomeName9 SomeFamilie9 SomePatronymic9 +380504802403 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 10 SomeName10 SomeFamilie10 SomePatronymic10 +380503536721 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 11 SomeName11 SomeFamilie11 SomePatronymic11 +380501342504 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 12 SomeName12 SomeFamilie12 SomePatronymic12 +380502335680 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 13 SomeName13 SomeFamilie13 SomePatronymic13 +380506252426 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 14 SomeName14 SomeFamilie14 SomePatronymic14 +380501177149 delivered_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 15 SomeName15 SomeFamilie15 SomePatronymic15 +380506010507 overdue_package 2022-05-20 08:15:22.334249 2022-05-20 08:20:07
+package : +380509874247 16 SomeName16 SomeFamilie16 SomePatronymic16 +380509626795 overdue_package 2022-05-20 08:15:22.

@@ -20,7 +20,6 @@ public class PostalPackagesController {
 
     private final PostalPackageService postalPackageService;
     private PostalPackageSchedule postalPackageSchedule;
-    private NotificationService notificationService;
     private static final Logger log = Logger.getLogger(PostalPackagesController.class);
     @Autowired
     public PostalPackagesController(PostalPackageService postalPackageService) {
@@ -50,16 +49,14 @@ public class PostalPackagesController {
     public void sendPackage(){
         int counter = 0;
         boolean flagSend = false;
-        postalPackageService.sendPackage();
-        flagSend = postalPackageService.sendPackage();
-        if(flagSend){
-            counter++;
-            flagSend = false;
-        } else {
-            counter = 0;
-        }
-        if(counter == 5){
-            log.info("STOP. ALLE PACKAGES SENT \n");
-        }
+//        while(counter<=5){
+            flagSend = postalPackageService.sendPackage();
+            if(flagSend){
+                counter++;
+                flagSend = false;
+            } else {
+                counter = 0;
+            }
+//        }
     }
 }

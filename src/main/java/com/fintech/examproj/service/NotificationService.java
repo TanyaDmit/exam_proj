@@ -40,18 +40,17 @@ public class NotificationService {
     public boolean sendNotification() {
         boolean flagStatus;
         List<PostalNotification> postalNotification = notificationRepository.findALLStatus();
-        fileController.sendNotification(postalNotification);
-        flagStatus = changeStatus(postalNotification);
-        return flagStatus;
-    }
-
-    private boolean changeStatus(List<PostalNotification> postalNotification){
         if(postalNotification.size() == 0){
             return false;
         }
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         for(int i = 0; i < postalNotification.size(); i++){
-            notificationRepository.changeStatus(postalNotification.get(i));
+                postalNotification.get(i).setStatus("delivered_notification");
+                LocalDateTime ndt = LocalDateTime.now();
+                postalNotification.get(i).setDateChangeStatus(ndt.format(dateTimeFormatter));
         }
+        notificationRepository.changeStatus(postalNotification);
+        fileController.sendNotificationInFile(notificationRepository.findALL());
         return true;
     }
 }

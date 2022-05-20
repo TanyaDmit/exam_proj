@@ -11,10 +11,11 @@ public class PostalNotificationRowMapper implements RowMapper<PostalNotification
     @Override
     public PostalNotification mapRow(ResultSet rs, int rowNum) throws SQLException {
         PostalNotification postalNotification = new PostalNotification();
-        postalNotification.setIdNotification(rs.getLong("id_message"));
+        postalNotification.setIdNotification(rs.getLong("id_notification"));
         postalNotification.setNumberPackage(rs.getLong("num_package"));
         postalNotification.setStatus(rs.getString("status"));
         postalNotification.setTextMessage(rs.getString("text_message"));
+        postalNotification.setDateChangeStatus((rs.getString("date_change_status")));
         return postalNotification;
     }
 }

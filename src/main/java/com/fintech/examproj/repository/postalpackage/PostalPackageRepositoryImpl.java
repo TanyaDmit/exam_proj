@@ -43,9 +43,12 @@ public class PostalPackageRepositoryImpl implements PostalPackageRepository{
 
     public List<PostalPackage> findALLStatus(){
         log.info("find status and date_change_status from packages ");
-        return jdbcTemplate.query("SELECT to_char(date_change_status, 'YYYY-MM-DD HH24:MI:SS') as d1, " +
-                    "status," +
-                    "id_package FROM packages where status = 'new_package'",
+        return jdbcTemplate.query("SELECT id_package," +
+                        "telephone_sender, num_office_recipient," +
+                        "telephone, first_name, last_name, patronymic," +
+                        "status,date_of_create," +
+                        "to_char(date_change_status, 'YYYY-MM-DD HH24:MI:SS') as date_change_status " +
+                        "FROM packages where status = 'new_package'",
                     new PostalPackageRowMapper());
     }
 

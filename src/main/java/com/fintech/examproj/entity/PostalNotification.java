@@ -14,7 +14,7 @@ import javax.persistence.Column;
 @Table("messages")
 public class PostalNotification {
     @Id
-    @Column(name = "id_message")
+    @Column(name = "id_notification")
     private Long idNotification;
     @Column(name = "num_package")
     private Long numberPackage;
@@ -22,6 +22,9 @@ public class PostalNotification {
     private String textMessage;
     @Column(name = "status")
     private String status;
+    @Column(name = "date_change_status")
+    private String dateChangeStatus;
+
 
     public PostalNotification(Long numberPackage, String textMessage){
         this.numberPackage = numberPackage;

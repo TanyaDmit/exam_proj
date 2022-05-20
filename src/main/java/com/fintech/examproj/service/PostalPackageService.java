@@ -48,19 +48,19 @@ public class PostalPackageService {
                 LocalDateTime dateTime = LocalDateTime.parse(postalPackages.get(i).getDateChangeStatus(), dateTimeFormatter);
                 int sec1 = ndt.getSecond();
                 int sec2 = dateTime.getSecond();
-                if ((sec1 - sec2) <= 5) {
-                    int myRand = (int) (Math.random() * 5);
-                    if (myRand == 3) {
+                int myRand = (int) (Math.random() * 5);
+                if (myRand == 3 || myRand == 5) {
                         postalPackages.get(i).setStatus("delivered_package");
                         postalPackages.get(i).setDateChangeStatus(ndt.format(dateTimeFormatter));
                         notificationService.save(new PostalNotification(
                                 postalPackages.get(i).getIdPackage(), "the package delivered"));
-                    }
+                        log.info(postalPackages.get(i));
                 } else {
                     postalPackages.get(i).setStatus("overdue_package");
                     postalPackages.get(i).setDateChangeStatus(ndt.format(dateTimeFormatter));
                     notificationService.save(new PostalNotification(
                             postalPackages.get(i).getIdPackage(), "the package overdue"));
+                    log.info(postalPackages.get(i));
                 }
             }
             postalPackageRepository.updateStatus(postalPackages);

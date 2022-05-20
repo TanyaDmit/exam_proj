@@ -13,10 +13,10 @@ import java.util.List;
 public class NotificationRepositoryImpl implements  NotificationRepository{
     @Autowired
     private JdbcTemplate jdbcTemplate;
-    private static final Logger log = Logger.getLogger(PostalPackageRepositoryImpl.class);
+    private static final Logger log = Logger.getLogger(NotificationRepositoryImpl.class);
     @Override
     public int save(PostalNotification postalNotification) {
-        log.info("insert into table packages: " + postalNotification);
+        log.info("insert into table messages: " + postalNotification);
         return jdbcTemplate.update("INSERT INTO messages" +
                         "(num_package, text_message, status) values (?::int, ?, 'new_message')",
                 postalNotification.getNumberPackage(),
@@ -25,8 +25,9 @@ public class NotificationRepositoryImpl implements  NotificationRepository{
 
     @Override
     public int delete(long id) {
-        log.info("delete notification from table messages");
-        return jdbcTemplate.update("DELETE FROM messages where id_message = ? ",id);
+//        log.info("delete notification from table messages");
+//        return jdbcTemplate.update("DELETE FROM messages where id_notification = ? ",id);
+        return 1;
     }
 
     @Override
@@ -37,16 +38,19 @@ public class NotificationRepositoryImpl implements  NotificationRepository{
 
     public List<PostalNotification> findALLStatus() {
         log.info("find all data in table messages with status = new");
-        return jdbcTemplate.query("SELECT * FROM messages" +
-                "where status = 'new_message'", new PostalNotificationRowMapper());
+        return jdbcTemplate.query("select * from messages where status = 'new_message';",
+                new PostalNotificationRowMapper());
     }
 
-    public int changeStatus(PostalNotification postalNotification){
+    public void changeStatus(List<PostalNotification> postalNotification){
         log.info("change status of message from new to delivered");
-        return jdbcTemplate.update("update messages" +
-                "set(status) = (?)" +
-                "where id_message = ?",
-                postalNotification.getIdNotification(),
-                postalNotification.getStatus());
+        for (int i = 0; i < postalNotification.size(); i++) {
+            jdbcTemplate.update("update messages " +
+                            "set (status, date_change_status) = (?, ?::timestamp)" +
+                            "where id_notification = ?",
+                    postalNotification.get(i).getStatus(),
+                    postalNotification.get(i).getDateChangeStatus(),
+                    postalNotification.get(i).getIdNotification());
+        }
     }
 }
